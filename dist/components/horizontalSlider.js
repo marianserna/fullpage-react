@@ -211,10 +211,6 @@ var HorizontalSlider = function (_React$Component) {
             return null;
           }
 
-          if (ch.type.name !== 'Slide' && ch.type.name !== 'Overlay') {
-            return null;
-          }
-
           if (ch.type.name === 'Overlay') {
             var oStyle = ch.props.style || {};
             var oClassName = ch.props.className || '';
